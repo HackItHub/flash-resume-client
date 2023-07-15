@@ -11,6 +11,9 @@ module.exports = [
       path: path.resolve(__dirname, "dist/client"),
       filename: "client_bundle.js",
     },
+    devServer: {
+      port: 3000,
+    },
     resolve: {
       extensions: [".js", ".ts", ".tsx", ".jsx"],
     },
