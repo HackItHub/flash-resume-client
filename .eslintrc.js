@@ -24,6 +24,15 @@ module.exports = {
   },
   plugins: ["react", "@typescript-eslint", "prettier"],
   rules: {
+    "no-plusplus": ["error", { allowForLoopAfterthoughts: true }],
+    "react/function-component-definition": [
+      2,
+      {
+        namedComponents: "arrow-function",
+        unnamedComponents: "arrow-function",
+      },
+    ],
+
     quotes: [
       "error",
       "double",

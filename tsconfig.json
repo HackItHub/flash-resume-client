@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
     "allowUnreachableCode": false,
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
@@ -15,6 +17,8 @@
     "strictFunctionTypes": true,
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "skipLibCheck": true,
     "jsx": "react",
     "allowJs": true,
     "checkJs": true,
