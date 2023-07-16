@@ -12,6 +12,8 @@ COPY . .
 
 ENV NODE_ENV=development
 
+ENV CODE_DIR /usr/src/app
+
 ENV PORT=3000
 
 EXPOSE 3000
